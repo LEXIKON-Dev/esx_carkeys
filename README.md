@@ -26,6 +26,24 @@ A lightweight **vehicle key system** for **FiveM** with **ESX Legacy**. Players 
 
 ---
 
+## Recommended
+
+For a complete vehicle experience, I recommend using **[esx_carlock](https://github.com/sprixGG/esx_carlock)** alongside this script.
+
+`esx_carkeys` handles key stealing, sharing, and management — while `esx_carlock` adds ownership-based locking for vehicles purchased through `esx_vehicleshop`, including lock/unlock animations and smart proximity detection (locks the closest owned vehicle even when multiple are nearby).
+
+**Setup:**
+1. Install [esx_carlock](https://github.com/sprixGG/esx_carlock) in your resources folder
+2. Add both resources to your `server.cfg`:
+   ```cfg
+   ensure esx_carlock
+   ensure esx_carkeys
+   ```
+
+> **Note:** `esx_carlock` requires [esx_vehicleshop](https://github.com/esx-framework/esx_vehicleshop) in addition to ESX.
+
+---
+
 ## Installation
 
 1. Clone or download the repository
